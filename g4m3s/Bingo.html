@@ -15,29 +15,54 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="title" content="DuckMath">
+  <meta name="title" content="Bingo">
   <meta name="description" content="learn and have fun with this interactive experience">
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
   <meta name="language" content="English">
-  <title>DuckMath</title>
-  <link rel="stylesheet" href="../assets/css/text_styles.css">
-  <link rel="stylesheet" href="../assets/css/topnav.css">
-  <link rel="stylesheet" href="../assets/css/main.css">
-  <link rel="stylesheet" href="../assets/css/games.css">
-  <script src="../assets/js/main.js"></script>
+  <title>Bingo</title>
   <link rel="icon" type="image/x-icon" href="../assets/img/duck.png">
   <link rel="mask-icon" type="" href="../assets/img/duck.png" color="#111">
-  <noscript>Your browser doesn't have JavaScript enabled. Please enable JavaScript or switch to a browser that
-    supports it.</noscript>
-  <script src="../assets/js/index.js" type="text/javascript" defer></script>
 
+  <style>
+  body{
+      margin:0;
+      font-family:Arial, sans-serif;
+      background:#1e1e2f;
+      color:white;
+  }
+
+  .title_text{
+      text-align:center;
+      padding:20px;
+      font-size:24px;
+      font-weight:bold;
+  }
+
+  .gameloc{
+      display:block;
+      margin:0 auto;
+      width:95%;
+      height:80vh;
+      border:none;
+  }
+
+  .button{
+      display:block;
+      margin:15px auto;
+      padding:10px 20px;
+      background:#7b2cbf;
+      color:white;
+      border:none;
+      border-radius:8px;
+      cursor:pointer;
+  }
+  </style>
 </head>
 <body>
 
+<div class="title_text">Bingo
 
-<div class = "title_text"> Bingo
-
-  <iframe class ="gameloc" id="gameFrame" allowfullscreen="" allow="autoplay; fullscreen; camera; focus-without-user-activation *; monetization; gamepad;
+  <iframe class="gameloc" id="gameFrame" allowfullscreen="" allow="autoplay; fullscreen; camera; focus-without-user-activation *; monetization; gamepad;
          keyboard-map *; xr-spatial-tracking; clipboard-write" name="gameFrame"
           scrolling="no" sandbox="allow-forms allow-modals allow-orientation-lock allow-pointer-lock
                 allow-popups allow-popups-to-escape-sandbox allow-presentation allow-scripts allow-same-origin
@@ -46,7 +71,4 @@
 </div>
 
 </body>
-
 </html>
-
-
